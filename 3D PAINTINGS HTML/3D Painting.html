@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Paintings - OMBOK Art Gallery</title>
+    <link rel="stylesheet" href="3D Paintings.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <a href="/ProjHomeP.html" class="logo">
+                <img src="/Media/icons/OMBOKLOGO_white_text.png" alt="OMBOK Art Gallery Logo">
+            </a>
+            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="/ProjHomeP.html"><b>HOME</b></a></li>
+                <li><a href="/ProjAbout.html"><b>ABOUT</b></a></li>
+                <li><a href="/ProjGallery.html"><b>GALLERY</b></a></li>
+                <li><a href="/ARTIST.html"><b>ARTIST</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <h1 class="title">3D PAINTINGS</h1>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <a href="FAIRIES HAVEN.html">
+                    <img src="/Media/3D Paintings/fairies-haven.webp" alt="Fairies Haven">
+                    <div class="overlay">
+                        <p>FAIRIES HAVEN</p>
+                    </div>
+                    <p class="painting-name">FAIRIES HAVEN</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="SANCTUARY.html">
+                    <img src="/Media/3D Paintings/sanctuary.webp" alt="Sanctuary">
+                    <div class="overlay">
+                        <p>SANCTUARY</p>
+                    </div>
+                    <p class="painting-name">SANCTUARY</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="UNTOUCHED FLORA.html">
+                    <img src="/Media/3D Paintings/untouched-flora.webp" alt="Untouched Flora">
+                    <div class="overlay">
+                        <p>UNTOUCHED FLORA</p>
+                    </div>
+                    <p class="painting-name">UNTOUCHED FLORA</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="/CONTACTUS.html">Contact Us</a></li>
+            <li><a href="/OUR TEAM.html">Our Team</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
